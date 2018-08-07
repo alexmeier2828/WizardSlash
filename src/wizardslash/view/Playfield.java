@@ -10,18 +10,12 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
 
 /**
- *
+ *The following class manages the game window, and sprite grid.
  * @author Alex Meier
+ * 
  */
-
-/**
-The following class manages the game window, and sprite grid.
-*/
 public class Playfield{
     private final int size_x;
     private final int size_y;
